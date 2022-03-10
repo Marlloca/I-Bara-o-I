@@ -1,0 +1,34 @@
+*{
+    background-color: #0f0;
+    color:black;
+}
+body {
+    font-family: monospace;
+}
+ul {font-family: helvetica;}
+li {
+    list-style: circle;
+}
+.list {
+    list-style: square;
+}
+.ligth-theme {
+     --bg: var(--green);
+     --fotColo: var(--black)   
+}
+.dark-theme {
+    --bg: var(--black);
+    --fotColor: var(--green)
+}
+:root {
+    --green: #0f0;
+    --white: #ffffff;
+    --black: #000000;
+}
+*{
+    color: var(--fontColor);
+    font-family: helvetica
+}
+body {
+    background: var(--bg)
+}
